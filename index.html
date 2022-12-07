@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass6webForm.css" />
+</head>
+<body>
+    <div id="top">
+        <div>MIU Golden Dome Market:::SRM system</div>
+        <div>Products</div>
+        <div>Suppliers</div>
+        <div id="hello">Hello!<button>Sign Out</button></div>
+    </div>
+    
+    <form>
+<label for="productNum">Product Number</label><br>
+<input type="text" id="productNum" pattern="[0-9]{10}"><br>
+<label for="name">Name</label><br>
+<input type="text" id="name" pattern ="[a-zA-Z]{3,}"><br>
+<label for="price">Unit Price</label><br>
+<input type="text" id="price" placeholder="0.0" pattern="[0-9]{1,}.[0-9]{1,}"><br>
+<label for="quantity">Quantity in Stock</label><br>
+<input type="text" id="quantity" placeholder="0" pattern="[0-9]{1,}" ><br>
+<label for="supplier">Supplier:</label><br>
+<select value="select supplier">
+    <!-- <optgroup label="supllier"> -->
+    <option>Amazon</option>
+    <option>Hyvee</option>
+    <option>Walmart</option>
+    <option>Alibaba</option>
+   
+</select>
+<br>
+
+<label for="date">Date supplied</label><br>
+<input type="text" id="date" patter="[0-9]{4}-[1-9]{1}[0-2]{1}-[0-3]{1}[0-9]{1}$"><br>
+<input type="date" id="date2" ><br>
+<h5>Enter Valid date</h5><br>
+<button> Reset</button>
+<button> Cancel</button>
+<button> AddProduct</button>
+
+
+
+    </form>
+    
+</body>
+</html>

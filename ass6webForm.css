@@ -1,0 +1,20 @@
+#top
+{
+    display: flex;
+    background-color: rgb(65, 130, 216);
+}
+#hello
+{
+    /* display: block; */
+    /* float: left; */
+    margin-right: 0;
+    padding-left: 80%;
+}
+#top>div
+{
+    border-right: 2px solid #404040;
+    padding: 1px;
+    padding-right: 3%;
+    padding-left: 2%;
+
+}
